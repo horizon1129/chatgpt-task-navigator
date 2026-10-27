@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="470" viewBox="0 0 1120 470" role="img" aria-labelledby="title desc">
+  <title id="title">ChatGPT Task Navigator — 界面示意</title>
+  <desc id="desc">左侧展示默认只有一条右侧细线，右侧展示悬停后出现的提问目录。不是实际聊天截图。</desc>
+  <defs><filter id="shadow" x="-30%" y="-20%" width="160%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="10" flood-color="#14263b" flood-opacity=".1"/></filter></defs>
+  <rect width="1120" height="470" rx="18" fill="#f5f7fa"/>
+  <g font-family="system-ui, 'Microsoft YaHei', sans-serif" fill="#273344">
+    <text x="32" y="42" font-size="22" font-weight="650">ChatGPT Task Navigator</text>
+    <text x="32" y="68" font-size="13" fill="#798594">轻量提问导航 · 右侧细线 · 悬停展开</text>
+    <rect x="28" y="94" width="513" height="326" rx="12" fill="white" stroke="#e3e7ed"/>
+    <rect x="563" y="94" width="529" height="326" rx="12" fill="white" stroke="#e3e7ed"/>
+    <text x="48" y="125" font-size="13" fill="#68778a">默认隐藏 / Collapsed</text>
+    <text x="583" y="125" font-size="13" fill="#68778a">悬停展开 / Expanded</text>
+    <rect x="83" y="160" width="340" height="46" rx="12" fill="#edf2f8"/>
+    <text x="102" y="188" font-size="14">怎么把 Word 转成 PDF？</text>
+    <rect x="64" y="231" width="376" height="8" rx="4" fill="#e3e8ef"/>
+    <rect x="64" y="252" width="330" height="8" rx="4" fill="#e3e8ef"/>
+    <rect x="64" y="273" width="350" height="8" rx="4" fill="#e3e8ef"/>
+    <rect x="133" y="320" width="290" height="46" rx="12" fill="#edf2f8"/>
+    <text x="152" y="348" font-size="14">解释一下 Docker 和 WSL。</text>
+    <rect x="525" y="171" width="2" height="172" rx="1" fill="#9ba7b7"/>
+    <rect x="595" y="163" width="213" height="43" rx="12" fill="#edf2f8"/>
+    <rect x="595" y="232" width="186" height="8" rx="4" fill="#e3e8ef"/>
+    <rect x="595" y="253" width="166" height="8" rx="4" fill="#e3e8ef"/>
+    <rect x="595" y="274" width="180" height="8" rx="4" fill="#e3e8ef"/>
+    <rect x="822" y="143" width="248" height="252" rx="12" fill="white" stroke="#e0e5ec" filter="url(#shadow)"/>
+    <rect x="1077" y="171" width="3" height="172" rx="1.5" fill="#8197b9"/>
+    <text x="836" y="168" font-size="13" font-weight="600">提问导航</text>
+    <text x="1001" y="168" font-size="11" fill="#8a94a2">12 条</text>
+    <text x="1051" y="168" font-size="17" fill="#8a94a2">›</text>
+    <path d="M823 181H1069" stroke="#eef0f3"/>
+    <rect x="833" y="192" width="226" height="30" rx="6" fill="#f7f8fa" stroke="#e3e7ed"/>
+    <text x="842" y="212" font-size="11" fill="#919caa">搜索本次对话的提问…</text>
+    <rect x="833" y="232" width="226" height="27" rx="6" fill="#f7f8fa" stroke="#e3e7ed"/>
+    <text x="910" y="250" font-size="11">收集历史提问</text>
+    <text x="838" y="286" font-size="11" fill="#8a94a2">1</text><text x="858" y="286" font-size="12">怎么把 Word 转成 PDF？</text>
+    <rect x="831" y="300" width="230" height="35" rx="6" fill="#edf2f8" stroke="#ccd6e5"/>
+    <text x="838" y="322" font-size="11" fill="#8a94a2">2</text><text x="858" y="322" font-size="12">解释 Docker 和 WSL。</text>
+    <text x="838" y="357" font-size="11" fill="#8a94a2">3</text><text x="858" y="357" font-size="12">继续第七题吧。</text>
+    <text x="838" y="383" font-size="10" fill="#9aa3af">已收集提问会保留 · v1.2.0</text>
+    <text x="32" y="450" font-size="11" fill="#8994a3">界面示意 / UI illustration · 示例内容为虚构文本</text>
+  </g>
+</svg>

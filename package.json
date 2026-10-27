@@ -1,0 +1,17 @@
+{
+  "name": "chatgpt-task-navigator",
+  "version": "1.2.0",
+  "private": true,
+  "description": "A minimal right-edge prompt navigator for ChatGPT conversations.",
+  "license": "MIT",
+  "author": "horizon1129",
+  "repository": { "type": "git", "url": "https://github.com/horizon1129/chatgpt-task-navigator.git" },
+  "bugs": { "url": "https://github.com/horizon1129/chatgpt-task-navigator/issues" },
+  "homepage": "https://github.com/horizon1129/chatgpt-task-navigator#readme",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "check": "node --check extension/content.js && node --check extension/index-core.js && node scripts/check-project.cjs",
+    "test": "node --test",
+    "pack": "node scripts/package.cjs"
+  }
+}

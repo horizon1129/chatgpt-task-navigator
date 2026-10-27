@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT 提问导航",
+  "version": "1.2.0",
+  "description": "为当前 ChatGPT 对话显示提问目录，支持搜索、悬停预览与点击跳转。",
+  "content_scripts": [{
+    "matches": ["https://chatgpt.com/*", "https://chat.openai.com/*"],
+    "js": ["index-core.js", "content.js"],
+    "run_at": "document_idle"
+  }]
+}
